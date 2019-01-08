@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PendientesVC: UIButton {
+class PendientesVC: UIViewController {
 
     /*
     // Only override draw() if you perform custom drawing.

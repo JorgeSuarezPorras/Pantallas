@@ -9,7 +9,7 @@
 
 import UIKit
 
-class CategoriasVC: UIButton {
+class CategoriasVC: UIViewController {
 
     /*
     // Only override draw() if you perform custom drawing.

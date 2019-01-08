@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="redraw" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="131.8359375" y="132.21083455344069"/>
         </scene>
-        <!--View Controller-->
+        <!--CategoriasVC-->
         <scene sceneID="TYi-Bb-410">
             <objects>
-                <viewController id="bHl-wN-kIV" sceneMemberID="viewController">
+                <viewController id="bHl-wN-kIV" customClass="CategoriasVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h4f-h6-7xE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,10 +184,10 @@
             </objects>
             <point key="canvasLocation" x="834.39999999999998" y="128.18590704647679"/>
         </scene>
-        <!--View Controller-->
+        <!--PendientesVC-->
         <scene sceneID="ed8-Hn-nr1">
             <objects>
-                <viewController id="Zgl-aI-ypd" sceneMemberID="viewController">
+                <viewController id="Zgl-aI-ypd" customClass="PendientesVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ag5-BS-0sy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -355,7 +355,6 @@
         <image name="logov2-negro" width="150" height="150"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3sz-RC-hXK"/>
-        <segue reference="5A7-Vg-7tf"/>
+        <segue reference="S8I-UK-Ivg"/>
     </inferredMetricsTieBreakers>
 </document>
